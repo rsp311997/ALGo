@@ -1,22 +1,5 @@
 import React from 'react';
 
-import LandingPage_first_image from '../../assets/images/LandingPage_first_image.png';
-import Image1 from '../../assets/images/Image1.jpg';
-import Card1 from '../../assets/images/Card1.png';
-import Table1 from '../../assets/images/Table1.png';
-import BlackArrowBody from '../../assets/images/ArrowBody.png';
-import BlackArrowHead from '../../assets/images/ArrowHead.png';
-import Side1 from '../../assets/images/Slide1.png';
-import WhiteAroBody from '../../assets/images/WhiteAroBody.png';
-import WhiteAroHead from '../../assets/images/WhiteAroHead.png';
-import BlackArrowHeadLeft from '../../assets/images/BlackArrowHeadLeft.png';
-import InvertedCoomaLeft from '../../assets/images/InvertedCoomaLeft.png';
-import InvertedCoomaRight from '../../assets/images/InvertedCoomaRight.png';
-import Ellipse from '../../assets/images/Ellipse.png';
-import EllipseImage from '../../assets/images/EllipseImage.png';
-import Linkedln from '../../assets/images/Linkedln.png';
-import FaceBook from '../../assets/images/FaceBook.png';
-import Twitter from '../../assets/images/Twitter.png';
 
 class LandingPage extends React.Component{
 	render(){
@@ -49,21 +32,21 @@ class LandingPage extends React.Component{
 						    <li class="nav-item">
 						        <a class="nav-link NavBar_Link" href="#">
 						        	<div className="NavBar_Icon_Box text-center">
-						        		<img className="img" src={FaceBook} alt="FaceBook"/>
+						        		<img className="img img-fluid" src={process.env.PUBLIC_URL + '/media/images/FaceBook.png'} alt="FaceBook"/>
 						        	</div>
 						        </a>
 						    </li>
 						    <li class="nav-item">
 						        <a class="nav-link NavBar_Link" href="#">
 						        	<div className="NavBar_Icon_Box text-center">
-						        		<img className="img" src={Linkedln} alt="FaceBook"/>
+						        		<img className="img img-fluid" src={process.env.PUBLIC_URL + '/media/images/Linkedln.png'} alt="FaceBook"/>
 						        	</div>
 						        </a>
 						    </li>
 						    <li class="nav-item">
 						        <a class="nav-link" href="#">
 						        	<div className="NavBar_Icon_Box text-center">
-						        		<img className="img" src={Twitter} alt="FaceBook"/>
+						        		<img className="img img-fluid" src={process.env.PUBLIC_URL + '/media/images/Twitter.png'} alt="FaceBook"/>
 						        	</div>
 						        </a>
 						    </li>
@@ -74,14 +57,14 @@ class LandingPage extends React.Component{
 				
 				{/*Section 1*/}
 				<div className="row">
-					<div className="col">
+					<div className="col height_control">
 						<div className="LandingPage_text_box1">
 							<p className="LandingPage_text1">40 Years of Investing Innovation</p>
 							<p className="LandingPage_text2">First VC Firm Est. 1981</p>
 						</div>
 					</div>
-					<div className="col" >
-							<img className="LandingPage_image1" src={Image1} alt="LandingPage_image1"/>
+					<div className="col height_control" >
+							<img className="img LandingPage_image1" src={process.env.PUBLIC_URL + '/media/images/Image1.jpg'} alt="LandingPage_image1"/>
 					</div>
 				</div>
 				{/*Section 1*/}
@@ -102,7 +85,7 @@ class LandingPage extends React.Component{
 					<div className="row justify-content-center mt-3 mb-3">
 						<div className="col">
 							<div className="card">
-								<img className="card-img-top" src={Card1} alt="Card image cap"/>
+								<img className="card-img-top" src={process.env.PUBLIC_URL + '/media/images/Card1.png'} alt="Card image cap"/>
 								<div className="card-body text-center">
 									<div className="LandingPage_card_title">
 										Algo Ventures
@@ -118,7 +101,7 @@ class LandingPage extends React.Component{
 						</div>
 						<div className="col">
 							<div className="card">
-								<img className="card-img-top" src={Card1} alt="Card image cap"/>
+								<img className="card-img-top" src={process.env.PUBLIC_URL + '/media/images/Card1.png'} alt="Card image cap"/>
 								<div className="card-body text-center">
 									<div className="LandingPage_card_title">
 										Algo+
@@ -134,7 +117,7 @@ class LandingPage extends React.Component{
 						</div>
 						<div className="col">
 							<div className="card">
-								<img className="card-img-top" src={Card1} alt="Card image cap"/>
+								<img className="card-img-top" src={process.env.PUBLIC_URL + '/media/images/Card1.png'} alt="Card image cap"/>
 								<div className="card-body text-center">
 									<div className="LandingPage_card_title">
 										Algo Canada
@@ -155,7 +138,7 @@ class LandingPage extends React.Component{
 				{/*Section 4*/}
 				<div className="LandingPage_text_box3 mt-5">
 						<div className="row text-center">
-							<div className="col-5 LandingPage_text5">
+							<div className="col-lg-5 col-md-4 col-sx-3 col-12 LandingPage_text5">
 								Companies
 							</div>
 							<div className="col LandingPage_text6">
@@ -169,32 +152,34 @@ class LandingPage extends React.Component{
 				<div className="container LandingPage_mt_5_grid">
 					<div className="row LandingPage_ul_grid">
 						<div className="col-3 LandingPage_ul_grid_col">
-							<img className="img LandingPage_ul_img" src={Table1} alt="Card image cap"/>
+							<img className="img LandingPage_ul_img" src={process.env.PUBLIC_URL + '/media/images/Table1.png'} alt="Card image cap"/>
 						</div>
 						<div className="col-3 LandingPage_ul_grid_col">
-							<img className="img LandingPage_ul_img" src={Table1} alt="Card image cap"/>
+							<img className="img LandingPage_ul_img" src={process.env.PUBLIC_URL + '/media/images/Table1.png'} alt="Card image cap"/>
 						</div>
 						<div className="col-3 LandingPage_ul_grid_col">
-							<img className="img LandingPage_ul_img" src={Table1} alt="Card image cap"/>
+							<img className="img LandingPage_ul_img" src={process.env.PUBLIC_URL + '/media/images/Table1.png'} alt="Card image cap"/>
 						</div>
 						<div className="col-3 LandingPage_ul_grid_col">
-							<img className="img LandingPage_ul_img" src={Table1} alt="Card image cap"/>
+							<img className="img LandingPage_ul_img" src={process.env.PUBLIC_URL + '/media/images/Table1.png'} alt="Card image cap"/>
 						</div>
 						<div className="col-3 LandingPage_ul_grid_col">
-							<img className="img LandingPage_ul_img" src={Table1} alt="Card image cap"/>
+							<img className="img LandingPage_ul_img" src={process.env.PUBLIC_URL + '/media/images/Table1.png'} alt="Card image cap"/>
 						</div>
 						<div className="col-3 LandingPage_ul_grid_col">
-							<img className="img LandingPage_ul_img" src={Table1} alt="Card image cap"/>
+							<img className="img LandingPage_ul_img" src={process.env.PUBLIC_URL + '/media/images/Table1.png'} alt="Card image cap"/>
 						</div>
 						<div className="col-3 LandingPage_ul_grid_col">
-							<img className="img LandingPage_ul_img" src={Table1} alt="Card image cap"/>
+							<img className="img LandingPage_ul_img" src={process.env.PUBLIC_URL + '/media/images/Table1.png'} alt="Card image cap"/>
 						</div>
 						<div className="col-3 LandingPage_ul_grid_col">
-							<img className="img LandingPage_ul_img" src={Table1} alt="Card image cap"/>
+							<img className="img LandingPage_ul_img" src={process.env.PUBLIC_URL + '/media/images/Table1.png'} alt="Card image cap"/>
 						</div>
 						<div className="col-12 mt-5">
 							<a className="LandingPage_text7" href="#">
-								View All Companies  <img src={BlackArrowBody} alt="Arrow Body"/><img className="LandingPage_ArrowHead" src={BlackArrowHead} alt="Arrow Head"/>
+								View All Companies &nbsp;
+								<img src={process.env.PUBLIC_URL + '/media/images/ArrowBody.png'} alt="Arrow Body"/>
+								<img className="LandingPage_ArrowHead" src={process.env.PUBLIC_URL + '/media/images/ArrowHead.png'} alt="Arrow Head"/>
 							</a>
 						</div>
 					</div>
@@ -208,10 +193,10 @@ class LandingPage extends React.Component{
 					</div>
 				</div>
 				<div className="row mb-5">
-					<div className="col">
-						<img className="LandingPage_side_image" src={Side1}/>
+					<div className="col-lg-6 col-md-6 col-sx-12 col-12">
+						<img className="img img-fluid LandingPage_side_image" src={process.env.PUBLIC_URL + '/media/images/Slide1.png'}/>
 					</div>
-					<div className="col">
+					<div className="col-lg-6 col-md-6 col-sx-12 col-12">
 						<div className="row">
 							<div className="col-12 LandingPage_text9 mt-5">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non pulvinar in quam euismod 
@@ -224,7 +209,10 @@ class LandingPage extends React.Component{
 								
 							</div>
 							<div className="col-12 mt-5 text-center">
-								<button className="btn LandingPage_button"> <span className="LandingPage_button_text">Meet the Team</span> <img src={WhiteAroBody}/><img className="LandingPage_ArrowHead" src={WhiteAroHead}/> </button>
+								<button className="btn LandingPage_button"> 
+									<span className="LandingPage_button_text">Meet the Team</span> 
+									<img src={process.env.PUBLIC_URL + '/media/images/WhiteAroBody.png'}/>
+									<img className="LandingPage_ArrowHead" src={process.env.PUBLIC_URL + '/media/images/WhiteAroHead.png'}/> </button>
 							</div>
 						</div>
 					</div>
@@ -254,11 +242,11 @@ class LandingPage extends React.Component{
 								    <div class="carousel-item active">
 								      		<div className="container">
 												 <div className="row justify-content-center align-items-center">
-											     	<div className="col-4">
-											     		<img className="img LandingPage_slide_image1" src={Ellipse}/>
-											     		<img className="img LandingPage_slide_image2" src={Ellipse}/>
-											     		<img className="img LandingPage_slide_image3" src={EllipseImage}/>
-											     		<div>
+											     	<div className="col-lg-4 col-md-4 col-xs-12">
+											     		<img className="img LandingPage_slide_image1" src={process.env.PUBLIC_URL + '/media/images/Ellipse.png'}/>
+											     		<img className="img LandingPage_slide_image2" src={process.env.PUBLIC_URL + '/media/images/Ellipse.png'}/>
+											     		<img className="img LandingPage_slide_image3" src={process.env.PUBLIC_URL + '/media/images/EllipseImage.png'}/>
+											     		<div className="LandingPage_Text_Box4">
 											     			<span className="LandingPage_text12">Name:Rahul</span><br/>
 											     			<span className="LandingPage_text13">Designation</span>
 											     		</div>
@@ -266,8 +254,8 @@ class LandingPage extends React.Component{
 											     	<div className="col">
 											     		<div className="row justify-content-start mt-3 mb-3">
 											     			<div className="col-2">
-											     				<img src={InvertedCoomaLeft} className="slide_Coomas"/>
-											     				<img src={InvertedCoomaLeft} className="slide_Coomas"/>
+											     				<img src={process.env.PUBLIC_URL + '/media/images/InvertedCoomaLeft.png'} className="slide_Coomas"/>
+											     				<img src={process.env.PUBLIC_URL + '/media/images/InvertedCoomaLeft.png'} className="slide_Coomas"/>
 											     			</div>
 											     		</div>
 											     		<div className="row justify-content-center">
@@ -279,8 +267,8 @@ class LandingPage extends React.Component{
 											     		</div>
 											     		<div className="row justify-content-end">
 											     			<div className="col-2">
-											     				<img src={InvertedCoomaRight} className="slide_Coomas"/>
-											     				<img src={InvertedCoomaRight} className="slide_Coomas"/>
+											     				<img src={process.env.PUBLIC_URL + '/media/images/InvertedCoomaRight.png'} className="slide_Coomas"/>
+											     				<img src={process.env.PUBLIC_URL + '/media/images/InvertedCoomaRight.png'} className="slide_Coomas"/>
 											     			</div>
 											     		</div>
 											     	</div>
@@ -291,10 +279,10 @@ class LandingPage extends React.Component{
 								      		<div className="container">
 												 <div className="row justify-content-center align-items-center">
 											     	<div className="col-4">
-											     		<img className="img LandingPage_slide_image1" src={Ellipse}/>
-											     		<img className="img LandingPage_slide_image2" src={Ellipse}/>
-											     		<img className="img LandingPage_slide_image3" src={EllipseImage}/>
-											     		<div>
+											     		<img className="img LandingPage_slide_image1" src={process.env.PUBLIC_URL + '/media/images/Ellipse.png'}/>
+											     		<img className="img LandingPage_slide_image2" src={process.env.PUBLIC_URL + '/media/images/Ellipse.png'}/>
+											     		<img className="img LandingPage_slide_image3" src={process.env.PUBLIC_URL + '/media/images/EllipseImage.png'}/>
+											     		<div className="LandingPage_Text_Box4">
 											     			<span className="LandingPage_text12">Name:Singh</span><br/>
 											     			<span className="LandingPage_text13">Designation</span>
 											     		</div>
@@ -302,8 +290,8 @@ class LandingPage extends React.Component{
 											     	<div className="col">
 											     		<div className="row justify-content-start mt-3 mb-3">
 											     			<div className="col-2">
-											     				<img src={InvertedCoomaLeft} className="slide_Coomas"/>
-											     				<img src={InvertedCoomaLeft} className="slide_Coomas"/>
+											     				<img src={process.env.PUBLIC_URL + '/media/images/InvertedCoomaLeft.png'} className="slide_Coomas"/>
+											     				<img src={process.env.PUBLIC_URL + '/media/images/InvertedCoomaLeft.png'} className="slide_Coomas"/>
 											     			</div>
 											     		</div>
 											     		<div className="row justify-content-center">
@@ -315,8 +303,8 @@ class LandingPage extends React.Component{
 											     		</div>
 											     		<div className="row justify-content-end">
 											     			<div className="col-2">
-											     				<img src={InvertedCoomaRight} className="slide_Coomas"/>
-											     				<img src={InvertedCoomaRight} className="slide_Coomas"/>
+											     				<img src={process.env.PUBLIC_URL + '/media/images/InvertedCoomaRight.png'} className="slide_Coomas"/>
+											     				<img src={process.env.PUBLIC_URL + '/media/images/InvertedCoomaRight.png'} className="slide_Coomas"/>
 											     			</div>
 											     		</div>
 											     	</div>
@@ -329,7 +317,7 @@ class LandingPage extends React.Component{
 								<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 								    <span class="carousel-control-prev-icon" aria-hidden="true">
 								    	<div className="slide_button_div">
-									    	<img src={BlackArrowHeadLeft} className="slide_button"/>
+									    	<img src={process.env.PUBLIC_URL + '/media/images/BlackArrowHeadLeft.png'} className="slide_button"/>
 									    </div>
 								    </span>
 								    <span class="sr-only">Previous</span>
@@ -339,7 +327,7 @@ class LandingPage extends React.Component{
 								<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
 								    <span class="carousel-control-next-icon" aria-hidden="true">
 								    	<div className="slide_button_div">
-									    	<img src={BlackArrowHead} className="slide_button"/>
+									    	<img src={process.env.PUBLIC_URL + '/media/images/ArrowHead.png'} className="slide_button"/>
 									    </div>
 								    </span>
 								    <span class="sr-only">Next</span>

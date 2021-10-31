@@ -27,9 +27,13 @@
 	background: #FFFFFF;
 	border-radius: 0.2rem;
 }
+
 /*Section 0*/
 
 /*Section 1*/
+.height_control{
+	height: 650px;
+}
 .LandingPage_text_box1{
 	transform: translateX(200px) translateY(200px);
 }
@@ -37,7 +41,7 @@
 .LandingPage_image1{
 	width: 750px;
 	height: 750px;
-	background: rgba(74, 78, 136, 0.90);
+	background: rgba(74,78,136,0.90);
 	border-radius: 100px;
 	transform: translateX(20px) translateY(-300px) rotate(-45deg);
 	opacity: 0.8;
@@ -182,7 +186,7 @@
 }
 .LandingPage_text9{
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 36px;
 	color: #7D7D7D;
 }
@@ -220,26 +224,31 @@
 .slide_button{
 	width: 5px;
 }
-.LandingPage_slide_image1{
-	border: solid 1 black;
-	width: 110px;
-	height: 110px;
+.LandingPage_Ellipse{
+  display: flex;
+  justify-content: center;
 }
-.LandingPage_slide_image2{
+.LandingPage_slide_image1{
 	position: relative;
 	width: 100px;
 	height: 100px;
-	left: -120px;
 	top: -15px;
-	border: solid 1 black;
+	left: 80px;
+}
+.LandingPage_slide_image2{
+	width: 110px;
+	height: 110px;
 }
 .LandingPage_slide_image3{
 	position: relative;
 	width: 110px;
 	height: 110px;
-	left: -210px;
 	top: 10px;
-	border: solid 1 black;
+	left: -110px;
+}
+.LandingPage_Text_Box4{
+	position: relative;
+	left:70px;
 }
 .slide_Coomas{
 	width: 20%;
