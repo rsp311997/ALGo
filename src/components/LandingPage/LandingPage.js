@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 
 class LandingPage extends React.Component{
 	render(){
@@ -7,7 +7,7 @@ class LandingPage extends React.Component{
 			<div className="LandingPage">
 				{/*Section 0*/}
 				<nav className="navbar navbar-expand-lg NavBar">
-					  <a className="navbar-brand NavBar_BrandName" href="#">ALGo</a>
+					  <Link to="/" style={{ textDecoration: 'none'}}> <p className="navbar-brand NavBar_BrandName" >ALGo</p> </Link>
 					  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					    <span className="navbar-toggler-icon"></span>
 					  </button>
@@ -15,40 +15,46 @@ class LandingPage extends React.Component{
 					  <div className="collapse navbar-collapse" id="navbarSupportedContent">
 					    <ul className="navbar-nav ml-auto">
 						    <li className="nav-item active">
-						       	<a className="nav-link NavBar_Link" href="#">About</a>
+						       	<Link to="/" style={{ textDecoration: 'none'}}> <p className="nav-link NavBar_Link" >About</p> </Link>
 						    </li>
 						    <li className="nav-item">
-						        <a className="nav-link NavBar_Link" href="#">Teams</a>
+						        <Link to="/" style={{ textDecoration: 'none'}}> <p className="nav-link NavBar_Link" >Teams</p> </Link>
 						    </li>
 						    <li className="nav-item">
-						        <a className="nav-link NavBar_Link" href="#">Companies</a>
+						        <Link to="/" style={{ textDecoration: 'none'}}> <p className="nav-link NavBar_Link" >Companies</p> </Link>
 						    </li>
 						    <li className="nav-item">
-						        <a className="nav-link NavBar_Link" href="#">News</a>
+						        <Link to="/" style={{ textDecoration: 'none'}}> <p className="nav-link NavBar_Link" >News</p> </Link>
 						    </li>
 						    <li className="nav-item">
-						        <a className="nav-link NavBar_Link" href="#">Jobs</a>
+						        <Link to="/" style={{ textDecoration: 'none'}}> <p className="nav-link NavBar_Link" >Jobs</p> </Link>
 						    </li>
 						    <li className="nav-item">
-						        <a className="nav-link NavBar_Link" href="#">
+						        <Link to="/" style={{ textDecoration: 'none'}}> 
+						        <p className="nav-link NavBar_Link" >
 						        	<div className="NavBar_Icon_Box text-center">
 						        		<img className="img img-fluid" src={process.env.PUBLIC_URL + '/media/images/FaceBook.png'} alt="FaceBook"/>
 						        	</div>
-						        </a>
+						        </p>
+						        </Link>
 						    </li>
 						    <li className="nav-item">
-						        <a className="nav-link NavBar_Link" href="#">
+						    	<Link to="/" style={{ textDecoration: 'none'}}> 
+						        <p className="nav-link NavBar_Link" >
 						        	<div className="NavBar_Icon_Box text-center">
 						        		<img className="img img-fluid" src={process.env.PUBLIC_URL + '/media/images/Linkedln.png'} alt="FaceBook"/>
 						        	</div>
-						        </a>
+						        </p>
+						        </Link>
 						    </li>
 						    <li className="nav-item">
-						        <a className="nav-link" href="#">
+						    	<Link to="/" style={{ textDecoration: 'none'}}> 
+						        <p className="nav-link" >
 						        	<div className="NavBar_Icon_Box text-center">
 						        		<img className="img img-fluid" src={process.env.PUBLIC_URL + '/media/images/Twitter.png'} alt="FaceBook"/>
 						        	</div>
-						        </a>
+						        </p>
+						        </Link>
 						    </li>
 					    </ul>
 					  </div>
@@ -94,7 +100,7 @@ class LandingPage extends React.Component{
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacinia.
 									</div>
 									<div className="mt-3">
-										<a className="btn LandingPage_card_Buttun">VISIT</a>
+										<Link to="/" style={{ textDecoration: 'none'}}> <p className="btn LandingPage_card_Buttun">VISIT</p> </Link>
 									</div>
 								</div>
 							</div>
@@ -110,7 +116,7 @@ class LandingPage extends React.Component{
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacinia.
 									</div>
 									<div className="mt-3">
-										<a className="btn LandingPage_card_Buttun">VISIT</a>
+										<Link to="/" style={{ textDecoration: 'none'}}> <p className="btn LandingPage_card_Buttun">VISIT</p> </Link>
 									</div>
 								</div>
 							</div>
@@ -126,7 +132,7 @@ class LandingPage extends React.Component{
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacinia.
 									</div>
 									<div className="mt-3">
-										<a className="btn LandingPage_card_Buttun">VISIT</a>
+										<Link to="/" style={{ textDecoration: 'none'}}> <p className="btn LandingPage_card_Buttun">VISIT</p> </Link>
 									</div>
 								</div>
 							</div>
@@ -176,11 +182,13 @@ class LandingPage extends React.Component{
 							<img className="img LandingPage_ul_img" src={process.env.PUBLIC_URL + '/media/images/Table1.png'} alt="Card image cap"/>
 						</div>
 						<div className="col-12 mt-5">
-							<a className="LandingPage_text7" href="#">
+						<Link to="/" style={{textDecoration: 'none'}}>
+							<p className="LandingPage_text7">
 								View All Companies &nbsp;
 								<img src={process.env.PUBLIC_URL + '/media/images/ArrowBody.png'} alt="Arrow Body"/>
 								<img className="LandingPage_ArrowHead" src={process.env.PUBLIC_URL + '/media/images/ArrowHead.png'} alt="Arrow Head"/>
-							</a>
+							</p>
+						</Link>
 						</div>
 					</div>
 				</div>
@@ -209,10 +217,13 @@ class LandingPage extends React.Component{
 								
 							</div>
 							<div className="col-12 mt-5 text-center">
+							<Link to="/" style={{ textDecoration: 'none'}}>
 								<button className="btn LandingPage_button"> 
 									<span className="LandingPage_button_text">Meet the Team</span> 
 									<img src={process.env.PUBLIC_URL + '/media/images/WhiteAroBody.png'}/>
-									<img className="LandingPage_ArrowHead" src={process.env.PUBLIC_URL + '/media/images/WhiteAroHead.png'}/> </button>
+									<img className="LandingPage_ArrowHead" src={process.env.PUBLIC_URL + '/media/images/WhiteAroHead.png'}/> 
+								</button>
+							</Link>
 							</div>
 						</div>
 					</div>
@@ -314,24 +325,24 @@ class LandingPage extends React.Component{
 							    {/*Slides*/}
 							  	</div>
 								{/*Pre-Button*/}
-								<a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+								<p className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 								    <span className="carousel-control-prev-icon" aria-hidden="true">
 								    	<div className="slide_button_div">
 									    	<img src={process.env.PUBLIC_URL + '/media/images/BlackArrowHeadLeft.png'} className="slide_button"/>
 									    </div>
 								    </span>
 								    <span className="sr-only">Previous</span>
-								</a>
+								</p>
 								{/*Pre-Button*/}
 								{/*Next-Button*/}
-								<a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+								<p className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
 								    <span className="carousel-control-next-icon" aria-hidden="true">
 								    	<div className="slide_button_div">
 									    	<img src={process.env.PUBLIC_URL + '/media/images/ArrowHead.png'} className="slide_button"/>
 									    </div>
 								    </span>
 								    <span className="sr-only">Next</span>
-								</a>
+								</p>
 								{/*Next-Button*/}
 							</div>
 
