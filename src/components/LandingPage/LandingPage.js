@@ -6,45 +6,45 @@ class LandingPage extends React.Component{
 		return(
 			<div className="LandingPage">
 				{/*Section 0*/}
-				<nav class="navbar navbar-expand-lg NavBar">
-					  <a class="navbar-brand NavBar_BrandName" href="#">ALGo</a>
-					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					    <span class="navbar-toggler-icon"></span>
+				<nav className="navbar navbar-expand-lg NavBar">
+					  <a className="navbar-brand NavBar_BrandName" href="#">ALGo</a>
+					  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					    <span className="navbar-toggler-icon"></span>
 					  </button>
 
-					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-					    <ul class="navbar-nav ml-auto">
-						    <li class="nav-item active">
-						       	<a class="nav-link NavBar_Link" href="#">About</a>
+					  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+					    <ul className="navbar-nav ml-auto">
+						    <li className="nav-item active">
+						       	<a className="nav-link NavBar_Link" href="#">About</a>
 						    </li>
-						    <li class="nav-item">
-						        <a class="nav-link NavBar_Link" href="#">Teams</a>
+						    <li className="nav-item">
+						        <a className="nav-link NavBar_Link" href="#">Teams</a>
 						    </li>
-						    <li class="nav-item">
-						        <a class="nav-link NavBar_Link" href="#">Companies</a>
+						    <li className="nav-item">
+						        <a className="nav-link NavBar_Link" href="#">Companies</a>
 						    </li>
-						    <li class="nav-item">
-						        <a class="nav-link NavBar_Link" href="#">News</a>
+						    <li className="nav-item">
+						        <a className="nav-link NavBar_Link" href="#">News</a>
 						    </li>
-						    <li class="nav-item">
-						        <a class="nav-link NavBar_Link" href="#">Jobs</a>
+						    <li className="nav-item">
+						        <a className="nav-link NavBar_Link" href="#">Jobs</a>
 						    </li>
-						    <li class="nav-item">
-						        <a class="nav-link NavBar_Link" href="#">
+						    <li className="nav-item">
+						        <a className="nav-link NavBar_Link" href="#">
 						        	<div className="NavBar_Icon_Box text-center">
 						        		<img className="img img-fluid" src={process.env.PUBLIC_URL + '/media/images/FaceBook.png'} alt="FaceBook"/>
 						        	</div>
 						        </a>
 						    </li>
-						    <li class="nav-item">
-						        <a class="nav-link NavBar_Link" href="#">
+						    <li className="nav-item">
+						        <a className="nav-link NavBar_Link" href="#">
 						        	<div className="NavBar_Icon_Box text-center">
 						        		<img className="img img-fluid" src={process.env.PUBLIC_URL + '/media/images/Linkedln.png'} alt="FaceBook"/>
 						        	</div>
 						        </a>
 						    </li>
-						    <li class="nav-item">
-						        <a class="nav-link" href="#">
+						    <li className="nav-item">
+						        <a className="nav-link" href="#">
 						        	<div className="NavBar_Icon_Box text-center">
 						        		<img className="img img-fluid" src={process.env.PUBLIC_URL + '/media/images/Twitter.png'} alt="FaceBook"/>
 						        	</div>
@@ -230,16 +230,16 @@ class LandingPage extends React.Component{
 
 					<div className="row mt-5">
 						<div className="col text-center">
-							<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+							<div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
 							  {/*Indicators*/}
-								  <ol class="carousel-indicators">
+								  <ol className="carousel-indicators">
 								    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active LandingPage_Slide_Indicator"></li>
 								    <li data-target="#carouselExampleIndicators" data-slide-to="1" className="LandingPage_Slide_Indicator"></li>
 								  </ol>
 							  {/*Indicators*/}
-							  	<div class="carousel-inner">
+							  	<div className="carousel-inner">
 								{/*Slides*/}
-								    <div class="carousel-item active">
+								    <div className="carousel-item active">
 								      		<div className="container">
 												 <div className="row justify-content-center align-items-center">
 											     	<div className="col-lg-4 col-md-4 col-xs-12">
@@ -275,7 +275,7 @@ class LandingPage extends React.Component{
 										     	 </div>
 											</div>
 								    </div>
-								    <div class="carousel-item">
+								    <div className="carousel-item">
 								      		<div className="container">
 												 <div className="row justify-content-center align-items-center">
 											     	<div className="col-4">
@@ -314,23 +314,23 @@ class LandingPage extends React.Component{
 							    {/*Slides*/}
 							  	</div>
 								{/*Pre-Button*/}
-								<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-								    <span class="carousel-control-prev-icon" aria-hidden="true">
+								<a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+								    <span className="carousel-control-prev-icon" aria-hidden="true">
 								    	<div className="slide_button_div">
 									    	<img src={process.env.PUBLIC_URL + '/media/images/BlackArrowHeadLeft.png'} className="slide_button"/>
 									    </div>
 								    </span>
-								    <span class="sr-only">Previous</span>
+								    <span className="sr-only">Previous</span>
 								</a>
 								{/*Pre-Button*/}
 								{/*Next-Button*/}
-								<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-								    <span class="carousel-control-next-icon" aria-hidden="true">
+								<a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+								    <span className="carousel-control-next-icon" aria-hidden="true">
 								    	<div className="slide_button_div">
 									    	<img src={process.env.PUBLIC_URL + '/media/images/ArrowHead.png'} className="slide_button"/>
 									    </div>
 								    </span>
-								    <span class="sr-only">Next</span>
+								    <span className="sr-only">Next</span>
 								</a>
 								{/*Next-Button*/}
 							</div>
