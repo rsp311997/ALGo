@@ -71,6 +71,7 @@ class LandingPage extends React.Component{
 					</div>
 					<div className="col height_control" >
 							<img className="img LandingPage_image1" src={process.env.PUBLIC_URL + '/media/images/Image1.jpg'} alt="LandingPage_image1"/>
+							<div className="LandingPage_image1_overlay"></div>
 					</div>
 				</div>
 				{/*Section 1*/}
@@ -143,8 +144,8 @@ class LandingPage extends React.Component{
 
 				{/*Section 4*/}
 				<div className="LandingPage_text_box3 mt-5">
-						<div className="row text-center">
-							<div className="col-lg-5 col-md-4 col-sx-3 col-12 LandingPage_text5">
+						<div className="row">
+							<div className="col-lg-5 col-md-4 col-sx-3 col-12 LandingPage_text5 text-center">
 								Companies
 							</div>
 							<div className="col LandingPage_text6">
@@ -158,30 +159,34 @@ class LandingPage extends React.Component{
 				<div className="container LandingPage_mt_5_grid">
 					<div className="row LandingPage_ul_grid">
 						<div className="col-3 LandingPage_ul_grid_col">
-							<img className="img LandingPage_ul_img" src={process.env.PUBLIC_URL + '/media/images/Table1.png'} alt="Card image cap"/>
+							<div className="img LandingPage_ul_img_text">LOGO</div>
+							<img className="img LandingPage_ul_img LandingPage_li_img_hover_broder" src={process.env.PUBLIC_URL + '/media/images/rec1.png'} alt="Card image cap"/>
 						</div>
 						<div className="col-3 LandingPage_ul_grid_col">
-							<img className="img LandingPage_ul_img" src={process.env.PUBLIC_URL + '/media/images/Table1.png'} alt="Card image cap"/>
+							<img className="img LandingPage_ul_img LandingPage_li_img_hover_broder" src={process.env.PUBLIC_URL + '/media/images/rec2.png'} alt="Card image cap"/>
 						</div>
 						<div className="col-3 LandingPage_ul_grid_col">
-							<img className="img LandingPage_ul_img" src={process.env.PUBLIC_URL + '/media/images/Table1.png'} alt="Card image cap"/>
+							<img className="img LandingPage_ul_img LandingPage_li_img_hover_broder" src={process.env.PUBLIC_URL + '/media/images/rec3.png'} alt="Card image cap"/>
 						</div>
 						<div className="col-3 LandingPage_ul_grid_col">
-							<img className="img LandingPage_ul_img" src={process.env.PUBLIC_URL + '/media/images/Table1.png'} alt="Card image cap"/>
+							<img className="img LandingPage_ul_img LandingPage_li_img_hover_broder" src={process.env.PUBLIC_URL + '/media/images/rec4.png'} alt="Card image cap"/>
 						</div>
 						<div className="col-3 LandingPage_ul_grid_col">
-							<img className="img LandingPage_ul_img" src={process.env.PUBLIC_URL + '/media/images/Table1.png'} alt="Card image cap"/>
+							<img className="img LandingPage_ul_img LandingPage_li_img_hover_broder" src={process.env.PUBLIC_URL + '/media/images/rec5.png'} alt="Card image cap"/>
 						</div>
 						<div className="col-3 LandingPage_ul_grid_col">
-							<img className="img LandingPage_ul_img" src={process.env.PUBLIC_URL + '/media/images/Table1.png'} alt="Card image cap"/>
+							<img className="img LandingPage_ul_img LandingPage_li_img_hover_broder" src={process.env.PUBLIC_URL + '/media/images/rec2.png'} alt="Card image cap"/>
 						</div>
 						<div className="col-3 LandingPage_ul_grid_col">
-							<img className="img LandingPage_ul_img" src={process.env.PUBLIC_URL + '/media/images/Table1.png'} alt="Card image cap"/>
+							<img className="img LandingPage_ul_img LandingPage_li_img_hover_broder" src={process.env.PUBLIC_URL + '/media/images/rec3.png'} alt="Card image cap"/>
 						</div>
 						<div className="col-3 LandingPage_ul_grid_col">
-							<img className="img LandingPage_ul_img" src={process.env.PUBLIC_URL + '/media/images/Table1.png'} alt="Card image cap"/>
+							<img className="img LandingPage_ul_img LandingPage_li_img_hover_broder" src={process.env.PUBLIC_URL + '/media/images/rec4.png'} alt="Card image cap"/>
 						</div>
-						<div className="col-12 mt-5">
+					</div>
+
+					<div className="row">
+						<div className="col-12 mt-5 text-center">
 						<Link to="/" style={{textDecoration: 'none'}}>
 							<p className="LandingPage_text7">
 								View All Companies &nbsp;
@@ -201,12 +206,12 @@ class LandingPage extends React.Component{
 					</div>
 				</div>
 				<div className="row mb-5">
-					<div className="col-lg-6 col-md-6 col-sx-12 col-12">
+					<div className="col-lg-6 col-md-6 col-sx-12 col-12 LandingPage_side_image">
 						<img className="img img-fluid LandingPage_side_image" src={process.env.PUBLIC_URL + '/media/images/Slide1.png'}/>
 					</div>
 					<div className="col-lg-6 col-md-6 col-sx-12 col-12">
 						<div className="row">
-							<div className="col-12 LandingPage_text9 mt-5">
+							<div className="col-11 LandingPage_text9 mt-5">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non pulvinar in quam euismod 
 								facilisi semper amet. Sed mi integer fringilla faucibus rhoncus imperdiet nisi. Faucibus arcu, 
 								it laoreet gravida eget morbi venenatis. Id egestas fringilla augue ultricies scelerisque aliquam 
@@ -354,9 +359,9 @@ class LandingPage extends React.Component{
 
 
 				{/*Section 8*/}
-					<div className="LandingPage_footer">
-						<div className="row justify-content-center align-items-center">
-							<div className="col-12 LandingPage_text14 text-center mt-5 mb-4">
+					<div className="LandingPage_footer text-center">
+						<div className="row ml-3 mr-3 justify-content-center align-items-center">
+							<div className="col-5 LandingPage_text14 text-center">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget scelerisque pulvinar.
 							</div>
 							<div className="col-8 LandingPage_text15">

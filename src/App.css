@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 .LandingPage{
 	font-family: Poppins;
 	font-style: normal;
+	overflow: hidden;
 }
 
 /*Section 0*/
@@ -12,7 +15,7 @@
 }
 
 .NavBar{
-	z-index: 1;
+	z-index: 3;
 }
 .NavBar_Link{
 	font-weight: bold;
@@ -32,18 +35,28 @@
 
 /*Section 1*/
 .height_control{
-	height: 650px;
+	height: 620px;
 }
 .LandingPage_text_box1{
-	transform: translateX(200px) translateY(200px);
+	transform: translateX(120px) translateY(200px);
 }
 
 .LandingPage_image1{
+	z-index: 2;
+	width: 750px;
+	height: 750px;
+	border-radius: 100px;
+	transform: translateX(40px) translateY(-370px) rotate(-45deg);
+	opacity: 0.8;
+}
+
+.LandingPage_image1_overlay{
+	z-index: 4;
 	width: 750px;
 	height: 750px;
 	background: rgba(74,78,136,0.90);
 	border-radius: 100px;
-	transform: translateX(20px) translateY(-300px) rotate(-45deg);
+	transform: translateX(40px) translateY(-1120px) rotate(-45deg);
 	opacity: 0.8;
 }
 
@@ -149,14 +162,27 @@
 .LandingPage_ul_grid{
 	text-align: center;
 	padding: 0px;
+	background-color: black;
 }
 .LandingPage_ul_grid_col{
 	padding: 0px;
-	border: solid 1px white;
 }
 .LandingPage_ul_img{
 	width: 100%;
 	height: 100%;
+}
+.LandingPage_ul_img_text{
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 60px;
+	align-items: center;
+	color: white;
+}
+img.LandingPage_li_img_hover_broder:hover{
+	border: solid 1px blue;
 }
 .LandingPage_text7{
 	font-weight: bold;
@@ -182,7 +208,7 @@
 }
 .LandingPage_side_image{
 	position: relative;
-	left: -10%;
+	transform: translateX(-10px);
 }
 .LandingPage_text9{
 	font-weight: 600;
@@ -285,13 +311,12 @@
 /*Section 8*/
 .LandingPage_footer{
 	margin-top: 200px;
-	position: relative;
-	bottom: 0px;
-	left: 0px;
 	background-color: #232283;
 }
 
 .LandingPage_text14{
+	margin-top: 100px;
+	margin-bottom: 50px;
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 30px;
