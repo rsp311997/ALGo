@@ -12,12 +12,10 @@ const PageNotFound = () => {
 
 const AppRouter = () => (
 	<BrowserRouter>
-		<div>
 		<Switch>
 			<Route path="/" component={LandingPage} exact={true}/>
 			<Route component={PageNotFound} />
 		</Switch>
-		</div>
 	</BrowserRouter>
 );
 
