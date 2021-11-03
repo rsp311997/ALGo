@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import NavBar from '../Basic/NabBar.js';
 import Section1 from './Section1.js';
 import Section2 from './Section2.js';
@@ -11,11 +10,129 @@ import Section7 from './Section7.js';
 import Section8 from './Section8.js';
 
 class LandingPage extends React.Component{
+
+	constructor(props){
+		super(props)
+		this.state={
+			NAV_BG_TOGGLE:false,
+			SECTION2:false,
+			SECTION3:false,
+			SECTION4:false,
+			SECTION5:false,
+			SECTION6:false,
+			SECTION7:false,
+			SECTION8:false,
+		}
+	}
+	
+	componentDidMount(){
+		window.addEventListener('scroll',(e)=>{
+			console.log(e.target.scrollingElement.scrollTop)
+
+			if(e.target.scrollingElement.scrollTop > 0){
+				this.setState({
+					...this.state,
+					NAV_BG_TOGGLE:true
+				});
+			}else{
+				this.setState({
+					...this.state,
+					NAV_BG_TOGGLE:false
+				});
+			}
+
+			if(e.target.scrollingElement.scrollTop > 50){
+				this.setState({
+					...this.state,
+					SECTION2:true
+				});
+			}else{
+				this.setState({
+					...this.state,
+					SECTION2:false
+				});
+			}
+
+			if(e.target.scrollingElement.scrollTop > 235){
+				this.setState({
+					...this.state,
+					SECTION3:true
+				});
+			}else{
+				this.setState({
+					...this.state,
+					SECTION3:false
+				});
+			}
+
+			if(e.target.scrollingElement.scrollTop > 663){
+				this.setState({
+					...this.state,
+					SECTION4:true
+				});
+			}else{
+				this.setState({
+					...this.state,
+					SECTION4:false
+				});
+			}
+
+			if(e.target.scrollingElement.scrollTop > 750){
+				this.setState({
+					...this.state,
+					SECTION5:true
+				});
+			}else{
+				this.setState({
+					...this.state,
+					SECTION5:false
+				});
+			}
+
+			if(e.target.scrollingElement.scrollTop > 1600){
+				this.setState({
+					...this.state,
+					SECTION6:true
+				});
+			}else{
+				this.setState({
+					...this.state,
+					SECTION6:false
+				});
+			}
+
+			if(e.target.scrollingElement.scrollTop > 750){
+				this.setState({
+					...this.state,
+					SECTION7:true
+				});
+			}else{
+				this.setState({
+					...this.state,
+					SECTION7:false
+				});
+			}
+
+			if(e.target.scrollingElement.scrollTop > 750){
+				this.setState({
+					...this.state,
+					SECTION8:true
+				});
+			}else{
+				this.setState({
+					...this.state,
+					SECTION8:false
+				});
+			}
+		})
+	}
+
+
 	render(){
 		return(
 			<div className="LandingPage">
 				{/*Section 0*/}
-				<NavBar/>
+				<NavBar  NAV_BG_TOGGLE={this.state.NAV_BG_TOGGLE}/>
 				{/*Section 0*/}
 				
 				{/*Section 1*/}
@@ -23,31 +140,31 @@ class LandingPage extends React.Component{
 				{/*Section 1*/}
 				
 				{/*Section 2*/}
-				<Section2/>
+				{this.state.SECTION2 ? <Section2/> : <div></div>}
 				{/*Section 2*/}
 
 				{/*Section 3*/}
-				<Section3/>
+				{this.state.SECTION3 ? <Section3/> : <div></div>}
 				{/*Section 3*/}
 
 				{/*Section 4*/}
-				<Section4/>
+				{this.state.SECTION4 ? <Section4/> : <div></div>}
 				{/*Section 4*/}
 
 				{/*Section 5*/}
-				<Section5/>
+				{this.state.SECTION5 ? <Section5/> : <div></div>}
 				{/*Section 5*/}
 
 				{/*Section 6*/}
-				<Section6/>
+				{this.state.SECTION6 ? <Section6/> : <div></div>}
 				{/*Section 6*/}
 
 				{/*Section 7*/}
-				<Section7/>
+				{this.state.SECTION7 ? <Section7/> : <div></div>}
 				{/*Section 7*/}
 
 				{/*Section 8*/}
-					<Section8/>
+				<Section8/>}
 				{/*Section 8*/}
 
 			</div>

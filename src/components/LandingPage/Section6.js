@@ -12,7 +12,7 @@ class Section6 extends React.Component{
 				</div>
 				<div className="row mb-5">
 					<div className="col-lg-6 col-md-6 col-sx-12 col-12 LandingPage_side_image">
-						<img className="img img-fluid LandingPage_side_image" src={process.env.PUBLIC_URL + '/media/images/Slide1.png'}/>
+						<img className="img img-fluid LandingPage_side_image" src={process.env.PUBLIC_URL + '/media/images/Slide1.png'} alt="slide1"/>
 					</div>
 					<div className="col-lg-6 col-md-6 col-sx-12 col-12">
 						<div className="row">
@@ -30,8 +30,8 @@ class Section6 extends React.Component{
 							<Link to="/" style={{ textDecoration: 'none'}}>
 								<button className="btn LandingPage_button"> 
 									<span className="LandingPage_button_text">Meet the Team</span> 
-									<img src={process.env.PUBLIC_URL + '/media/images/WhiteAroBody.png'}/>
-									<img className="LandingPage_ArrowHead" src={process.env.PUBLIC_URL + '/media/images/WhiteAroHead.png'}/> 
+									<img src={process.env.PUBLIC_URL + '/media/images/WhiteAroBody.png'} alt="whiteAroBody"/>
+									<img className="LandingPage_ArrowHead" src={process.env.PUBLIC_URL + '/media/images/WhiteAroHead.png'} alt="whiteAroHead"/> 
 								</button>
 							</Link>
 							</div>

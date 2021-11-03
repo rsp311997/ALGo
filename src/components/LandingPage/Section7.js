@@ -52,7 +52,7 @@ class Section7 extends React.Component{
 											     		<div className="row justify-content-end">
 											     			<div className="col-2">
 											     				<img src={process.env.PUBLIC_URL + '/media/images/InvertedCoomaRight.png'} className="slide_Coomas" alt="commas"/>
-											     				<img src={process.env.PUBLIC_URL + '/media/images/InvertedCoomaRight.png'} className="slide_Coomas" />
+											     				<img src={process.env.PUBLIC_URL + '/media/images/InvertedCoomaRight.png'} className="slide_Coomas" alt="commas"/>
 											     			</div>
 											     		</div>
 											     	</div>
@@ -66,17 +66,17 @@ class Section7 extends React.Component{
 								<a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 								    <span className="carousel-control-prev-icon" aria-hidden="true">
 								    	<div className="slide_button_div">
-									    	<img src={process.env.PUBLIC_URL + '/media/images/BlackArrowHeadLeft.png'} className="slide_button"/>
+									    	<img src={process.env.PUBLIC_URL + '/media/images/BlackArrowHeadLeft.png'} className="slide_button" alt="BlackArrowHeadLeft"/>
 									    </div>
 								    </span>
 								    <span className="sr-only">Previous</span>
 								</a>
 								{/*Pre-Button*/}
 								{/*Next-Button*/}
-								<a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+								<a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" >
 								    <span className="carousel-control-next-icon" aria-hidden="true">
 								    	<div className="slide_button_div">
-									    	<img src={process.env.PUBLIC_URL + '/media/images/ArrowHead.png'} className="slide_button"/>
+									    	<img src={process.env.PUBLIC_URL + '/media/images/ArrowHead.png'} className="slide_button" alt="ArrowHead"/>
 									    </div>
 								    </span>
 								    <span className="sr-only">Next</span>

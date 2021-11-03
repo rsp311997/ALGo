@@ -7,8 +7,8 @@ class Section3 extends React.Component{
         <div className="container">
             <div className="row justify-content-center mt-3 mb-3">
                 <div className="col">
-                    <div className="card">
-                        <img className="card-img-top" src={process.env.PUBLIC_URL + '/media/images/Card1.png'} alt="Card image cap"/>
+                    <div className="card card_animate">
+                        <img className="card-img-top" src={process.env.PUBLIC_URL + '/media/images/Card1.png'} alt="Card1"/>
                         <div className="card-body text-center">
                             <div className="LandingPage_card_title">
                                 Algo Ventures
@@ -23,8 +23,8 @@ class Section3 extends React.Component{
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
-                        <img className="card-img-top" src={process.env.PUBLIC_URL + '/media/images/Card1.png'} alt="Card image cap"/>
+                    <div className="card card_animate">
+                        <img className="card-img-top" src={process.env.PUBLIC_URL + '/media/images/Card1.png'} alt="Card1"/>
                         <div className="card-body text-center">
                             <div className="LandingPage_card_title">
                                 Algo+
@@ -39,8 +39,8 @@ class Section3 extends React.Component{
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
-                        <img className="card-img-top" src={process.env.PUBLIC_URL + '/media/images/Card1.png'} alt="Card image cap"/>
+                    <div className="card card_animate">
+                        <img className="card-img-top" src={process.env.PUBLIC_URL + '/media/images/Card1.png'} alt="Card1"/>
                         <div className="card-body text-center">
                             <div className="LandingPage_card_title">
                                 Algo Canada

@@ -14,7 +14,7 @@ class Section5 extends React.Component{
                             <img 
                                 className="img list_img" 
                                 src={process.env.PUBLIC_URL + '/media/images/rec1.png'} 
-                                alt="Card image cap"
+                                alt="rec1"
                             />
                         </div>               
                     </li>
@@ -26,7 +26,7 @@ class Section5 extends React.Component{
                                 <img 
                                     className="img list_img" 
                                     src={process.env.PUBLIC_URL + '/media/images/rec2.png'} 
-                                    alt="Card image cap"
+                                    alt="rec2"
                                 />
                         </div> 
                     </li>
@@ -38,7 +38,7 @@ class Section5 extends React.Component{
                                 <img 
                                     className="img list_img" 
                                     src={process.env.PUBLIC_URL + '/media/images/rec3.png'} 
-                                    alt="Card image cap"
+                                    alt="rec3"
                                 />
                         </div>
                     </li>
@@ -50,7 +50,7 @@ class Section5 extends React.Component{
                                 <img 
                                     className="img list_img" 
                                     src={process.env.PUBLIC_URL + '/media/images/rec4.png'} 
-                                    alt="Card image cap"
+                                    alt="rec4"
                                 />
                         </div>
                     </li>
@@ -64,7 +64,7 @@ class Section5 extends React.Component{
                                 <img 
                                     className="img list_img" 
                                     src={process.env.PUBLIC_URL + '/media/images/rec5.png'} 
-                                    alt="Card image cap"
+                                    alt="rec5"
                                 />
                         </div>
                     </li>
@@ -76,7 +76,7 @@ class Section5 extends React.Component{
                                 <img 
                                     className="img list_img" 
                                     src={process.env.PUBLIC_URL + '/media/images/rec2.png'} 
-                                    alt="Card image cap"
+                                    alt="rec2"
                                 />
                         </div>
                     </li>
@@ -88,7 +88,7 @@ class Section5 extends React.Component{
                                 <img 
                                     className="img list_img" 
                                     src={process.env.PUBLIC_URL + '/media/images/rec3.png'} 
-                                    alt="Card image cap"
+                                    alt="rec3"
                                 />
                         </div>
                     </li>
@@ -100,7 +100,7 @@ class Section5 extends React.Component{
                                 <img 
                                     className="img list_img" 
                                     src={process.env.PUBLIC_URL + '/media/images/rec4.png'} 
-                                    alt="Card image cap"
+                                    alt="rec4"
                                 />
                         </div>
                     </li>

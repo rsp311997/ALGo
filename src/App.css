@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 .LandingPage{
 	font-family: Poppins;
@@ -11,12 +10,25 @@
 	font-weight: 500;
 	font-size: 48px;
 	line-height: 72px;
-	color: #7575CD;
+	color: #7575CD !important;
+	margin-bottom: 0;
 }
 
-.NavBar{
+.NavBar_Normal{
 	z-index: 3;
+	position:fixed;
+	width: 100%;
+	height: 60;
 }
+.NavBar_Modified{
+	z-index: 3;
+	position:fixed;
+	width: 100%;
+	height: 60;
+	box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
+	transition: 0.3s ease-in-out;
+}
+
 .NavBar_Link{
 	font-weight: bold;
 	font-size: 16px;
@@ -30,33 +42,32 @@
 	background: #FFFFFF;
 	border-radius: 0.2rem;
 }
-
 /*Section 0*/
 
 /*Section 1*/
 .height_control{
-	height: 630px;
+	height: 750px;
 }
 .LandingPage_text_box1{
-	transform: translateX(120px) translateY(200px);
+	transform: translateX(120px) translateY(220px);
 }
 
 .LandingPage_image1{
 	z-index: 2;
 	width: 750px;
-	height: 750px;
+	height: 850px;
 	border-radius: 100px;
-	transform: translateX(40px) translateY(-370px) rotate(-45deg);
+	transform: translateX(110px) translateY(-270px) rotate(-45deg);
 	opacity: 0.8;
 }
 
 .LandingPage_image1_overlay{
 	z-index: 4;
 	width: 750px;
-	height: 750px;
+	height: 850px;
 	background: rgba(74,78,136,0.90);
 	border-radius: 100px;
-	transform: translateX(40px) translateY(-1120px) rotate(-45deg);
+	transform: translateX(110px) translateY(-1120px) rotate(-45deg);
 	opacity: 0.8;
 }
 
@@ -81,7 +92,15 @@
 /*Section 2*/
 .LandingPage_text_box2{
 	background: #F7F7F7;
+	position: relative;
+	animation: slide_up 2s ease;
 }
+
+@keyframes slide_up {
+	from {top:30px;opacity: 0;}
+	to {top:0px;opacity: 1;}
+}
+
 
 .LandingPage_text3{
 	font-weight: bold;
@@ -106,6 +125,16 @@
 	width: 18rem;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.card_animate{
+	position: relative;
+	animation: slide_up 2s ease;
+}
+
+@keyframes slide_up {
+	from {top:30px;opacity: 0;}
+	to {top:0px;opacity: 1;}
 }
 
 .LandingPage_card_title{
@@ -136,6 +165,8 @@
 /*Section 4*/
 .LandingPage_text_box3{
 	background: #F7F7F7;
+	position: relative;
+	animation: slide_up 2s ease;
 }
 
 .LandingPage_text5{
@@ -160,6 +191,8 @@
 	margin-bottom: 4rem !important;
 	margin-left: 10%;
 	margin-right: 10%;
+	position: relative;
+	animation: slide_up 2s ease;
 }
 .list_group_item{
 	padding: 0px !important;
@@ -209,14 +242,21 @@
 
 
 /*Section 6*/
+@keyframes slide_right {
+	from {left: -500px; opacity: 0;}
+	to { left: -10px; opacity: 1;}
+}
 .LandingPage_text8{
 	font-weight: bold;
 	font-size: 40px;
 	line-height: 60px;
 	color: #4753BD;
+	position: relative;
+	animation: slide_up 2s ease;
 }
 .LandingPage_side_image{
 	position: relative;
+	animation: slide_right 1.8s ease-in;
 	transform: translateX(-10px);
 }
 .LandingPage_text9{
