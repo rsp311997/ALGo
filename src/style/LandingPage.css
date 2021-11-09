@@ -36,6 +36,14 @@
 	color: #FFFFFF;
 	padding-right: 1.5rem !important;
 }
+.NavBar_Link:hover{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	color: #4753BD;
+	padding-right: 1.5rem !important;
+}
+
 .NavBar_Icon_Box{
 	width: 30px;
 	height: 30px;
@@ -375,11 +383,10 @@
 /*Section 8*/
 .LandingPage_footer{
 	margin-top: 200px;
-	background-color: #232283;
+	background-color: #060B2E;
 }
 
 .LandingPage_text14{
-	margin-top: 100px;
 	margin-bottom: 50px;
 	font-weight: 300;
 	font-size: 16px;
@@ -409,5 +416,12 @@
 	line-height: 30px;
 	color: #FFFFFF;
 	text-align: end!important;
+}
+.LandingPage_text18{
+	margin-top: 100px;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 30px;
+	color: #FFFFFF;
 }
 /*Section 8*/

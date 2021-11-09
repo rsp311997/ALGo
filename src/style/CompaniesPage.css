@@ -1,0 +1,119 @@
+.CompaniesPage{
+	font-family: Poppins;
+	font-style: normal;
+	overflow: hidden;
+}
+
+/* Section 1 */
+.comapnies_NavBar{
+    position:fixed;
+    width: 100%;
+    top:0;
+    z-index: 3;
+}
+
+.Companies_NavBar_Icon_Box{
+    width: 30px;
+	height: 30px;
+	background: #060B2E;
+	border-radius: 0.2rem;
+}
+
+.Companies_NavBar_Link{
+	padding-right: 1.5rem !important;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000 !important;
+}
+
+.Companies_NavBar_Link:hover{
+    padding-right: 1.5rem !important;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #638598 !important;
+}
+/* Section 1 */
+
+/* Section 2 */
+.Section2_text1{
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 96px;
+    display: flex;
+    align-items:center;
+    color: #FFFFFF;
+}
+.Section2_text2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.companies_section2{
+    margin-top: 90px;
+    height:634.1px;
+}
+.companies_section2_bgimage{
+    height:100%;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: auto;
+}
+.companies_section2_row{
+    height: 100% !important;
+}
+/* Section 2 */
+
+
+/* Section 3 */
+.wapper{
+    position: relative;
+    width: 330px;
+    height: 484px;
+    top: 0;
+    left: 5%;
+    z-index: 1;
+}
+.wapper_text_box{
+    position:absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: White;
+    display:flex;
+    align-items: flex-end;
+    padding-left: 10px;
+}
+.wapper_text1{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.wapper_text2{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.companies_section3_img{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.companies_section3_img:hover{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 6px 5px 5px rgba(48, 45, 45, 0.5);
+    opacity: 0.5;
+}
+/* Section 3 */

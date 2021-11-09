@@ -1,10 +1,13 @@
 import React from "react";
 
-class Section8 extends React.Component{
+class Footer extends React.Component{
     render(){
         return(
             <div className="LandingPage_footer text-center">
 						<div className="row ml-3 mr-3 justify-content-center align-items-center">
+							<div className="col-12 LandingPage_text18 text-center">
+								Algo
+							</div>
 							<div className="col-5 LandingPage_text14 text-center">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget scelerisque pulvinar.
 							</div>
@@ -23,4 +26,4 @@ class Section8 extends React.Component{
     }
 }
 
-export default Section8;
+export default Footer;

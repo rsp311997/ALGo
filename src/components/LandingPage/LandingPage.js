@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../Basic/NabBar.js';
+import Footer from '../Basic/Footer.js';
 import Section1 from './Section1.js';
 import Section2 from './Section2.js';
 import Section3 from './Section3.js';
@@ -7,7 +7,7 @@ import Section4 from './Section4.js';
 import Section5 from './Section5.js';
 import Section6 from './Section6.js';
 import Section7 from './Section7.js';
-import Section8 from './Section8.js';
+import NavBar from '../Basic/NavBar.js';
 
 class LandingPage extends React.Component{
 
@@ -21,7 +21,6 @@ class LandingPage extends React.Component{
 			SECTION5:false,
 			SECTION6:false,
 			SECTION7:false,
-			SECTION8:false,
 		}
 	}
 	
@@ -101,7 +100,7 @@ class LandingPage extends React.Component{
 				});
 			}
 
-			if(e.target.scrollingElement.scrollTop > 750){
+			if(e.target.scrollingElement.scrollTop > 1800){
 				this.setState({
 					...this.state,
 					SECTION7:true
@@ -113,17 +112,6 @@ class LandingPage extends React.Component{
 				});
 			}
 
-			if(e.target.scrollingElement.scrollTop > 750){
-				this.setState({
-					...this.state,
-					SECTION8:true
-				});
-			}else{
-				this.setState({
-					...this.state,
-					SECTION8:false
-				});
-			}
 		})
 	}
 
@@ -164,7 +152,7 @@ class LandingPage extends React.Component{
 				{/*Section 7*/}
 
 				{/*Section 8*/}
-				<Section8/>}
+				<Footer/>
 				{/*Section 8*/}
 
 			</div>
