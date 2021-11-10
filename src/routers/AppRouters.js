@@ -1,7 +1,7 @@
 import {BrowserRouter,Route,Switch} from 'react-router-dom';
 import LandingPage from '../components/LandingPage/LandingPage.js';
-import CompaniesPage from '../components/CompaniesPage/CompaniesPage.js';
-
+import TeamsPage from '../components/TeamsPage/TeamsPage.js';
+import TeamsDetailPage from '../components/TeamsDetailPage/TeamsDetailPage.js';
 
 const PageNotFound = () => {
 	return(
@@ -15,7 +15,8 @@ const AppRouter = () => (
 	<BrowserRouter>
 		<Switch>
 			<Route path="/" component={LandingPage} exact={true}/>
-			<Route path="/companies/" component={CompaniesPage} />
+			<Route path="/teams/" component={TeamsPage}/>
+			<Route path="/teams-detail/:id" component={TeamsDetailPage}/>
 			<Route component={PageNotFound} />
 		</Switch>
 	</BrowserRouter>

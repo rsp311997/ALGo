@@ -1,0 +1,112 @@
+.teamsdetailpage{
+    font-family: Poppins;
+    font-style: normal;
+    overflow: hidden;
+}
+
+/* Section 1 */
+.teamsdetail-section1{
+    margin-top: 90px;
+}
+
+.teamsdetail-section1-bgimage{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.teamsdetail-section1-row-height{
+    height: 670px;
+    display: flex;
+    align-items: center;
+
+}
+
+.teamsdetail-section1-profile-img-box{
+    width: 321px;
+    height: 321px;
+    border: 3px solid #A7A7A7;
+    box-sizing: border-box;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamsdetail-section1-profile-img-box2{
+    width: 95%;
+    height: 95%;
+    border: 3px solid #A7A7A7;
+    box-sizing: border-box;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+
+
+.teamsdetail-section1-text-name{
+    font-weight: bold;
+    font-size:  48px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.teamsdetail-section1-text-designation{    
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #595959;
+}
+
+.teamsdetail-section1-text-description{    
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.ul_Icon_Box{
+	width: 30px;
+	height: 30px;
+	background: #638598;
+	border-radius: 0.2rem;
+}
+/* Section 1 */
+
+
+/* Section 2 */
+.teamsdetail-section2-ul{
+    list-style:none;
+}
+
+.teamsdetail-section2-ul-heading{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.teamsdetail-section2-ul-list-text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.teamsdetail-section2-ul-list-bar{
+    height: 3px;
+    width: 100px;
+    background: #A7A7A7;
+    border-radius: 8px;
+}
+
+/* Section 2 */

@@ -26,8 +26,6 @@ class LandingPage extends React.Component{
 	
 	componentDidMount(){
 		window.addEventListener('scroll',(e)=>{
-			console.log(e.target.scrollingElement.scrollTop)
-
 			if(e.target.scrollingElement.scrollTop > 0){
 				this.setState({
 					...this.state,
