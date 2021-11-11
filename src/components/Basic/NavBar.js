@@ -24,7 +24,7 @@ class NavBar extends React.Component{
 						        <Link to="/teams/" style={{ textDecoration: 'none'}}> <p className="nav-link NavBar_Link" >Teams</p> </Link>
 						    </li>
 						    <li className="nav-item">
-						        <Link to="/" style={{ textDecoration: 'none'}}> <p className="nav-link NavBar_Link" >Companies</p> </Link>
+						        <Link to="/companies/" style={{ textDecoration: 'none'}}> <p className="nav-link NavBar_Link" >Companies</p> </Link>
 						    </li>
 						    <li className="nav-item">
 						        <Link to="/" style={{ textDecoration: 'none'}}> <p className="nav-link NavBar_Link" >News</p> </Link>

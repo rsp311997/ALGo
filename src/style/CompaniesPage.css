@@ -1,0 +1,93 @@
+.companies-page{
+    font-family: Poppins;
+    font-style: normal;
+    overflow: hidden;
+}
+
+
+/* Section 1 */
+.companies-section1-bgimg{
+    margin-top: 90px;
+    width: 100%;
+    height: 531.1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.companies-section1-text1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 96px;
+    display: flex;
+    align-items:center;
+    color: #FFFFFF;
+}
+.companies-section1-text2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items:center;
+    color: #FFFFFF;
+}
+/* Section 1 */
+
+
+/* Section 2 */
+.companies-section2{
+    width: 100%;
+}
+.companies-section2-arrow-head-down{
+    transform: rotate(90deg);
+    display: inline-block;
+}
+.companies-section2-anchor-prop-disable{
+    color:currentColor;
+}
+.companies-section2-anchor-prop-disable:hover{
+    text-decoration:none;
+    color: currentColor;
+}
+/* Section 2 */
+
+
+/* Section 3 */
+.companies-section3-list-group-item:hover{
+    border: 2px solid blue;
+}
+
+.companies-section3-wrapper{
+    position: relative;
+    
+}
+.companies-section3-wrapper-text{
+    position:absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: White;
+    opacity: 0;
+}
+
+.companies-section3-wrapper-text:hover{
+    position:absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: White;
+    opacity: 0.6;
+    border: 2px solid blue;
+    transition: 0.4s ease-in-out;
+}
+
+.companies-section3-wrapper-img{
+    width: 378px;
+    height: 100%;
+
+}
+
+/* Section 3 */

@@ -9,6 +9,8 @@ import Section6 from './Section6.js';
 import Section7 from './Section7.js';
 import NavBar from '../Basic/NavBar.js';
 
+import "../../style/Footer.css";
+
 class LandingPage extends React.Component{
 
 	constructor(props){
@@ -109,6 +111,7 @@ class LandingPage extends React.Component{
 					SECTION7:false
 				});
 			}
+
 
 		})
 	}

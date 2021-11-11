@@ -1,5 +1,6 @@
 import React from "react";
 import "../../style/TeamsPage.css";
+import "../../style/Footer.css";
 import Footer from "../Basic/Footer.js";
 import NavBar from "../Basic/NavBar.js";
 import Section1 from "./Section1";

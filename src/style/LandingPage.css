@@ -214,11 +214,11 @@
 	line-height: 60px;
 	color: #4753BD;
 	position: relative;
-	animation: slide_up 2s ease;
+	animation: slide_up 2s ease-in;
 }
 .LandingPage_side_image{
 	position: relative;
-	animation: slide_right 1.8s ease-in;
+	animation: slide_right 2s ease-in;
 	transform: translateX(-10px);
 }
 .LandingPage_text9{
@@ -332,50 +332,3 @@
 	background-color: #262587 !important;
 }
 /*Section 7*/
-
-
-/*Section 8*/
-.LandingPage_footer{
-	margin-top: 200px;
-	background-color: #060B2E;
-}
-
-.LandingPage_text14{
-	margin-bottom: 50px;
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 30px;
-	color: #FFFFFF;
-}
-
-.LandingPage_text15{
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 30px;
-	color: #FFFFFF;
-	text-align: start!important;
-}
-
-.LandingPage_text16{
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 30px;
-	color: #FFFFFF;
-	text-align: end!important;
-}
-
-.LandingPage_text17{
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 30px;
-	color: #FFFFFF;
-	text-align: end!important;
-}
-.LandingPage_text18{
-	margin-top: 100px;
-	font-weight: 300;
-	font-size: 24px;
-	line-height: 30px;
-	color: #FFFFFF;
-}
-/*Section 8*/

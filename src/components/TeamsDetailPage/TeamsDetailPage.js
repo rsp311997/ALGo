@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '../Basic/NavBar.js';
 import "../../style/TeamsDetailPage.css";
 import Footer from '../Basic/Footer.js';
-import {Link} from "react-router-dom";
+import "../../style/Footer.css";
 
 
 /** 
