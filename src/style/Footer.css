@@ -2,46 +2,23 @@
 .LandingPage_footer{
 	margin-top: 200px;
 	background-color: #060B2E;
-	position:sticky;
-	bottom: 0;
 }
 
-.LandingPage_text14{
-	margin-bottom: 50px;
-	font-weight: 300;
-	font-size: 16px;
+.LandingPage_text{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
 	line-height: 30px;
-	color: #FFFFFF;
+	color: #515151;
 }
 
-.LandingPage_text15{
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 30px;
-	color: #FFFFFF;
-	text-align: start!important;
-}
-
-.LandingPage_text16{
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 30px;
-	color: #FFFFFF;
-	text-align: end!important;
-}
-
-.LandingPage_text17{
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 30px;
-	color: #FFFFFF;
-	text-align: end!important;
-}
-.LandingPage_text18{
-	margin-top: 100px;
-	font-weight: 300;
-	font-size: 24px;
-	line-height: 30px;
+.LandingPage_text_head{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 58px;
 	color: #FFFFFF;
 }
 /*Section 8*/

@@ -80,6 +80,13 @@
 	background: #638598;
 	border-radius: 0.2rem;
 }
+.ul_Icon_Box:hover{
+	width: 30px;
+	height: 30px;
+	background: #638598;
+	border-radius: 0.2rem;
+    border: 1px solid rgb(75, 75, 233);
+}
 /* Section 1 */
 
 

@@ -22,9 +22,9 @@ class TeamsDetailPage extends React.Component{
                 description: "Canada is home to some of the world's most innovative people and ideas. When entrepreneurs choose to partner with Rho Canada Ventures, they gain access to a powerful network of connections that are dedicatted to helping them succeed in a big way.",
                 biography: "Habib Kairouz is a managing partner of Rho Capital Partners, Rho Ventures and Rho Acceleration as well as a member of the Investment Committees of Rho Canada Ventures and Rho Fund Investors.\n With over 25 years of experience in technology, private equity, and venture capital investing, Habib seeks to partner with entrepreneurs who are visionaries, hungry to build massive opportunities, confident enough to challenge established market leaders and charismatic enough to attract top-tier partners,\n customers and other business personnel.Habib joined Rho in 1993 and focuses on investments in new media, information technology and communication companies at various stages of development – from seed stage to private equity. Prior to Rho, Habib worked in investment banking and leveraged buyouts in New York with Reich & Co. and Jesup & Lamont.His interests also extend internationally to the impact of the Internet on globalization and its disruption of geopolitical boundaries, as well as solutions to the Middle East conflict. A native of Lebanon, Habib is involved with a number of nonprofit organizations focused on reforms and economic development there.Habib has a passion for skiing and tennis. Habib received a B.S. in engineering and a B.A. in economics from Cornell University and an M.B.A. in finance from Columbia University. Follow Habib on Twitter, and connect with him on LinkedIn.",
                 contact:[
-                    {name:"facebook",url: "https://www.facebook.com/"},
-                    {name:"linkedln",url: "https://www.twitter.com"},
-                    {name:"twitter",url: "https://www.linkedln.com"}
+                    { name: "facebook", url: "https://www.facebook.com/", ICON_URL: process.env.PUBLIC_URL + "/media/images/svg/FaceBookWhite.svg" },
+                    { name: "linkedln", url: "https://www.twitter.com", ICON_URL: process.env.PUBLIC_URL + "/media/images/svg/LinkedlnWhite.svg" },
+                    { name: "twitter", url: "https://www.linkedln.com", ICON_URL: process.env.PUBLIC_URL + "/media/images/svg/TwitterWhite.svg" },
                 ],
                 keyFacts:[
                         "Convercent",
@@ -89,27 +89,13 @@ class TeamsDetailPage extends React.Component{
                                                     {this.state.profile.contact.map((obj,index)=>{
                                                         return(
                                                             <div key={index} className="col-1">
-                                                                <a href={
-                                                                            obj.name === "facebook" ? 
-                                                                                obj.url: 
-                                                                            obj.name === "twitter"?
-                                                                                obj.url: 
-                                                                            obj.name === "linkedln"?
-                                                                                obj.url:"/"
-                                                                        } 
+                                                                <a href={obj.url} 
                                                                 
                                                                 style={{ textDecoration: 'none'}}> 
                                                                     <div className="ul_Icon_Box text-center">
                                                                         <img 
                                                                             className="img img-fluid" 
-                                                                            src= {
-                                                                                obj.name === "facebook" ? 
-                                                                                        process.env.PUBLIC_URL + '/media/images/svg/FaceBookWhite.svg': 
-                                                                                obj.name === "twitter"?
-                                                                                        process.env.PUBLIC_URL + '/media/images/svg/TwitterWhite.svg': 
-                                                                                obj.name === "linkedln"?
-                                                                                        process.env.PUBLIC_URL + '/media/images/svg/LinkedlnWhite.svg':""
-                                                                                }
+                                                                            src= {obj.ICON_URL}
                                                                             alt="FaceBook"/>
                                                                             {}
                                                                     </div>
